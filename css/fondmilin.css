@@ -1,0 +1,305 @@
+
+
+/*nav-bar*/
+
+a.navbar-brand{
+	margin: -1rem;
+
+}
+
+.navbar-brand{
+	padding-right: 2rem;
+}
+.fondmilin-nav{
+	background-color: black;
+	/*background-image: linear-gradient(#73560375, #58370480, #330f01 );*/
+	font-size: 1rem;
+	padding: 0.3rem 1rem;
+
+}
+.nav-link{
+	margin: 0 0.5rem;
+}
+
+.navbar-nav .nav-link{
+	color: #ddb27b;
+	font-weight: bold;
+}
+
+
+/*carousel*/
+
+.fn-carousel{
+	padding: 0px;
+	padding-top: 4.3rem;
+}
+
+.carousel-indicators{
+	opacity: 0.6;
+	bottom: -1rem;
+}
+.carousel-indicators li{
+	width:0.8rem;
+	height:0.8rem;
+}
+
+/*body*/
+body{
+	background-color: #000;
+}
+
+.fn-about{
+    height: 100%;
+    background-image: url(../img/carrot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fn-about-t{
+	display: block;
+	position: relative;
+	top: 9em;
+	background-color: rgba(0,0,0,0.5);
+	margin: 10em 0px;
+	color: #d5f1f5;
+	border-radius:	18px;
+}
+.space-2{
+	display: block;
+	margin: 6em 0px;
+}
+.c-cake{
+	background-image: url(../img/food-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 500px;
+	border-radius: 15%;
+	margin-bottom: 1em;
+
+}
+.carrot-info{
+	line-height: 2;
+}
+.m-cake{
+	background-image: url(../img/food-4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	height: 500px;
+	border-radius: 15%;
+	margin-bottom: 1em;
+
+}
+.r-cake{
+	background-image: url(../img/food-5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 500px;
+	border-radius: 15%;
+	margin-bottom: 1em;
+
+}
+hr{
+	border-top: 1px solid orange;
+}
+
+/*shop
+.delicious-shop{
+	opacity: 0.3;
+	float: right;
+	width: 70%;
+}
+*/
+/*card*/
+.card{
+	background-color: black;
+	color: white;
+}
+
+.the-space{
+	display: block;
+	margin-top: 10rem;
+}
+
+
+/*footer*/
+footer{
+	display: block;
+	position: fixed;
+	background-image: url(../img/wood-bg.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-size: contain;
+	width: 100%;
+	height: auto;
+	left: 0;
+	bottom: 0;
+	z-index: 15;
+
+
+}
+
+.rice-mark{
+display: block;
+min-width: 20%;
+position: absolute;
+margin-left: -1rem;
+
+}
+.fn-title{
+	display: block;
+	margin-left: 5rem;
+	color: #ffffff52;
+    text-shadow: 1px 3px 6px #fff1ca;
+    font-size: 2.2rem;
+    
+}
+.fondmilin-title{
+	display: block;
+	min-width: 12em;
+	padding-top: .5rem;
+
+}
+
+ol.fn-list{
+    display: block;
+    text-align: start;
+    list-style-type: none;
+    padding-top: 1rem;
+    margin-left: 3rem;
+}
+
+li{
+	display: inline;
+}
+
+a:hover,a:focus{
+	box-shadow: none;
+}
+
+.icon-email,.icon-facebook,.icon-instagram,.icon-youtube{
+	color:orange;
+	font-size: 1.5rem;
+	padding:0 0.4rem;
+	text-decoration: none;
+}
+.icon-email:hover,.icon-facebook:hover,.icon-instagram:hover,.icon-youtube:hover{
+	color: gold;
+	text-decoration: none;
+}
+.icon-email:active,.icon-facebook:active,.icon-instagram:active,.icon-youtube:active{
+	color: gold;
+	text-decoration: none;
+}
+
+/*tablet ipad-pro*/
+@media (min-width: 992px) and (max-width: 1199px){
+	.fondmilin-nav{
+		font-size: 1rem;
+		padding: 0.5rem 0.9rem;
+}
+	ol.fn-list{
+		padding: 0.5rem 0 0 1.6rem;
+	}
+
+}
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px){
+
+
+ol.fn-list{
+	display: block;
+    text-align: start;
+    list-style-type: none;
+    padding-top: 1rem;
+   	margin-left: 0;
+}
+
+.fn-title{
+	margin-left: 3rem;
+	font-size: 2rem;
+}
+.fondmilin-title{
+	padding-top: 1.5rem;
+
+}
+}
+
+/*big mobile screen*/
+@media (min-width: 480px) and (max-width: 767px){
+	
+	.card-img, .card-img-bottom, .card-img-top{
+		width: 50%;
+
+	}
+	.fn-title{
+		display: none;
+		
+	}
+
+	ol.fn-list{
+		display: flex;
+		padding-top: 1rem;
+		margin-left: -2rem;
+	}
+
+}
+/*mobile screen*/
+@media (max-width: 479px) {
+	.card-img, .card-img-bottom, .card-img-top{
+		width: 50%;
+
+	}
+/*footer*/
+footer{
+	margin-bottom: -1.08rem;
+	}
+	.rice-mark{
+	display: block;
+	min-width: 20%;
+	position: absolute;
+	margin-left: -1.2rem;
+	}
+	.fn-title{
+	display: none;
+	
+	}
+	.fondmilin-title{
+	display: block;
+	min-width: 12em;
+	padding-top: .5rem;
+	font-size: 0.9rem;
+
+	}
+
+	ol.fn-list{
+    display: block;
+    position: relative;
+    text-align: right;
+    list-style-type: none;
+    padding-top: 1rem;
+    margin-left: 5rem;
+	}
+/*super-small mobile screen*/
+@media (max-width: 280px){
+.navbar-toggler{
+	padding:  0;
+}
+.rice-mark{
+	margin-left: -4.2rem;
+	}
+.fn-title{
+	display: none;
+	}
+	ol.fn-list{
+	display: flex;
+	margin-left: 3rem;
+		}
+	}
+
+}
+	
